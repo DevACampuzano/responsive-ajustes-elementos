@@ -10,7 +10,8 @@ html, body{
     align-items: center;
     height: 100vh;
     gap:20px;
-    padding: 20px 80px
+    padding: 20px 80px;
+    flex-wrap: wrap;
 }
 
 .item{
@@ -22,4 +23,5 @@ html, body{
     justify-content: center;
     align-items: center;
     border-radius: 16px;
+    min-width: 350px;
 }
